@@ -30,13 +30,13 @@ import * as flsFunctions from "./files/functions.js";
 
 /* Перевірка підтримки webp, додавання класу webp або no-webp для HTML */
 /* (i) необхідно для коректного відображення webp із css */
-// flsFunctions.isWebp();
+flsFunctions.isWebp();
 /* Додавання класу touch для HTML якщо браузер мобільний */
 // flsFunctions.addTouchClass();
 /* Додавання loaded для HTML після повного завантаження сторінки */
 // flsFunctions.addLoadedClass();
 /* Модуль для роботи з меню (Бургер) */
-// flsFunctions.menuInit();
+flsFunctions.menuInit();
 /* Форматування чисел */
 // import './libs/wNumb.min.js';
 
@@ -109,12 +109,12 @@ import * as flsForms from "./files/forms/forms.js";
 
 /* Робота з полями форми */
 /* Документація: https://template.fls.guru/template-docs/rabota-s-formami.html */
-/*
+
 flsForms.formFieldsInit({
-	viewPass: false,
-	autoHeight: false
+	viewPass: true,
+	autoHeight: true
 });
-*/
+
 /* Надсилання форми */
 /* Документація: https://template.fls.guru/template-docs/rabota-s-formami.html */
 // flsForms.formSubmit();
@@ -126,7 +126,7 @@ flsForms.formFieldsInit({
 // flsForms.formRating();
 
 /* Модуль роботи з select. */
-// import './libs/select.js'
+import './libs/select.js'
 
 /* Модуль роботи з календарем */
 // import './files/forms/datepicker.js'
@@ -251,7 +251,7 @@ import * as flsScroll from "./files/scroll/scroll.js";
 
 /* Динамічний адаптив */
 // Документація: https://template.fls.guru/template-docs/dinamicheskij-adaptiv.html
-// import "./libs/dynamic_adapt.js";
+import "./libs/dynamic_adapt.js";
 
 // ========================================================================================================================================================================================================================================================
 // Інше ========================================================================================================================================================================================================================================================

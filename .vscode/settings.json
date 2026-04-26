@@ -5,8 +5,8 @@
 		"@js": "${folder}/src/js"
 	},
 	"[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "css.lint.compatibleVendorPrefixes": "warning",
-    "html.validate.styles": true
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.lint.compatibleVendorPrefixes": "warning",
+  "html.validate.styles": true,
 }
