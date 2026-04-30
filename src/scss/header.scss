@@ -169,6 +169,7 @@
   } 
  // .search-form__input 
   &__input {
+    outline: none;
     font-size: toRem(14);
     width: 100%;
     padding: 0px 20px 0px 0px;
